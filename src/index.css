@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Prevent horizontal scrolling on small screens and ensure consistent box sizing */
+html, body, #root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Use border-box to avoid unexpected overflow from padding/margin calculations */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
