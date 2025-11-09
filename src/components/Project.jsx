@@ -139,18 +139,6 @@ function Project() {
                   {/* Buttons */}
                   <div className="d-flex gap-3 mt-4">
                     <Button
-                      href={project.liveUrl}
-                      target="_blank"
-                      className="rounded-pill px-3 py-2 d-flex align-items-center gap-2"
-                      style={{
-                        backgroundColor: "#00b4d8",
-                        border: "none",
-                        color: "#fff",
-                      }}
-                    >
-                      <FaExternalLinkAlt /> Live
-                    </Button>
-                    <Button
                       href={project.githubUrl}
                       target="_blank"
                       className="rounded-pill px-3 py-2 d-flex align-items-center gap-2"
